@@ -1,2 +1,2 @@
 # Snowager.github.io
-BACS200 site.
+Cole Robinson's BACS200 site.
