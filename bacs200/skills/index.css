@@ -1,0 +1,20 @@
+
+.linkList {
+}
+
+.header {
+    width: 100%;
+}
+
+h1 {
+    color: grey;
+    font-size: 80px;
+}
+
+small {
+    color: lightgray;
+}
+
+li {
+    padding-bottom: 50px;
+}

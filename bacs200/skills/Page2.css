@@ -1,0 +1,71 @@
+.parallax1 {
+    background-image: url("image/df.jpg");
+    min-height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    background-image: url("image/df2.jpg");
+    min-height: 800px;
+    filter: hue-rotate(5deg) blur(4px);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 {
+    background-image: url("image/df3.jpg");
+    filter: hue-rotate(30deg) blur(6px) contrast(3);
+    background-color: beige;
+    min-height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax4 {
+    background-image: url("image/df4.jpg");
+    background-color: darkgoldenrod;
+    filter: hue-rotate(90deg) blur(10px) contrast(3);
+    min-height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax5 {
+    background-image: url("image/df5.jpg");
+    background-color: darkorange;
+    filter: invert(2%) blur(14px) hue-rotate(120deg) contrast(3);
+    min-height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax6 {
+    background-image: url("image/df7.jpg");
+    background-color: crimson;
+    filter: invert(12) blur(5px) hue-rotate(120deg) contrast(2);
+    min-height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.frontText {
+    padding-top: 100px;
+    text-align: center;
+    height: 200px;
+    background-color: azure;
+    font-size: 80px;
+}

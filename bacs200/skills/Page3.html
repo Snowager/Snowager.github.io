@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Page3.css">
+    <title>Tutorial for Togglable Header Tabs</title>
+</head>
+
+<body>
+    <div id="Item1" class="tabHeader">
+        <h1>Item 1</h1>
+        <p>Information about item 1</p>
+    </div>
+
+    <div id="Item2" class="tabHeader">
+        <h1>Item 2</h1>
+        <p>Information about item 2</p>
+    </div>
+
+    <div id="Item3" class="tabHeader">
+        <h1>Item 3</h1>
+        <p>Information about item 3</p>
+    </div>
+
+    <div id="Item4" class="tabHeader">
+        <h1>Item 4</h1>
+        <p>Information about item 4</p>
+    </div>
+
+    <button class="tablink" onclick="openItem('Item1', this, 'blue')" id="defaultOpen">Item 1</button>
+    <button class="tablink" onclick="openItem('Item2', this, 'mediumpurple')">Item 2</button>
+    <button class="tablink" onclick="openItem('Item3', this, 'red')">Item 3</button>
+    <button class="tablink" onclick="openItem('Item4', this, 'green')">Item 4</button>
+
+    <script>
+        function openItem(itemName, elmnt, color) {
+            var i, tabHeader, tablinks;
+            tabHeader = document.getElementsByClassName("tabHeader");
+            for (i = 0; i < tabHeader.length; i++) {
+                tabHeader[i].style.display = "none";
+            }
+            tablinks =
+                document.getElementsByClassName("tablink");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].style.backgroundColor = "";
+            }
+
+            document.getElementById(itemName).style.display = "block";
+            elmnt.style.backgroundColor = color;
+        }
+
+        document.getElementById("defaultOpen").click();
+
+    </script>
+</body>
+
+</html>
