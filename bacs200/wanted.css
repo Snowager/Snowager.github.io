@@ -1,75 +1,38 @@
-
-.container {
-    display: grid;
-    grid-template-columns: 96px 1fr 96px;
+.posterTop {
+    height: 400px;
 }
 
-.poster {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-column: 2 / 3;
-    background-color: beige;
-}
-header {
-    justify-self: center;
-    grid-column: 2 / 4;
-    grid-row: 1 / 2;
-}
 
 h1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-size: 70px;
     font-family: "Courier";
-    color: chocolate 
+    color: chocolate
 }
 
 h2 {
     color: darkgoldenrod;
     font-size: 30px;
     font-family: Monospace;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
-    
+
 h3 {
     font-family: sans-serif;
     font-size: 22px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-main {
-    padding: 25px;
+.main {
     background-color: antiquewhite;
-    justify-self: center;
-    grid-column: 2 / 4;
-    grid-row: 2 / 3;
 }
-footer {
+
+.wantedText {
     background-color: burlywood;
     padding: 2px;
     border: solid bisque 5px;
-    grid-column: 2 / 4;
-    grid-row: 3 / 4;
 }
 
-.linkBack {
-    font-size: 24px;
-    display: flex;
-    grid-column: 1 / 2;
-    grid-row: 3 / 4;
-    justify-content: center;
-    align-items: center;
-    
-}
 p {
     font-size: 24px;
     color: dimgray;
-    display: flex;
-    justify-content: center;
+
 }
+
