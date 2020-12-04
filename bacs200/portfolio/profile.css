@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the side navigation */
+.sidenav {
+    height: 100%;
+    width: 400px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    font-size: 24px;
+    padding-bottom: 15px;
+}
+
+.sidenav a {
+    transition: 2s;
+}
+
+/* Change color on hover */
+.sidenav a:hover {
+    padding-right: 200px;
+    background-color: dimgray;
+    transition: 2s;
+
+}
+
+.imgg {
+    position: relative;
+}
+
+.Name {
+    width: 900px;
+    position: absolute;
+    top: 70px;
+    left: 450px;
+    font-size: 70px;
+    color: dodgerblue;
+    opacity: 60%;
+    transition: .5s;
+}
+
+.Name:hover {
+    opacity: 100%;
+    color: black;
+    transition: .5s;
+}
+
+.Student {
+    width: 900px;
+    position: absolute;
+    top: 1200px;
+    left: 650px;
+    font-size: 70px;
+    color: dodgerblue;
+    opacity: 60%;
+    transition: .5s;
+}
+
+.Student:hover {
+    opacity: 100%;
+    color: black;
+    transition: .5s;
+}
