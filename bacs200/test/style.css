@@ -9,7 +9,6 @@ body {
     margin: 50px auto;
     width: 500px;
     -webkit-transform-style: preserve-3d;
-    -webkit-transform: rotateX(20deg)
   }
   
   .cube-no-preserve {
