@@ -7,7 +7,7 @@ $(window).on('swipeleft', function(event) {
         $(this).css('-webkit-transform', 'rotateY('+degree+'deg)');
         },
         
-    },'linear');
+    },'swing');
 });
 $(window).on('swiperight', function(event) {
     var durationC = 200;
@@ -17,6 +17,6 @@ $(window).on('swiperight', function(event) {
         $(this).css('-webkit-transform', 'rotateY('+degree+'deg)');
         },
         
-    },'linear');
+    },'swing');
 });
 
