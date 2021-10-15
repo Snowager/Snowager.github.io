@@ -1,5 +1,5 @@
 var degree = 0;
-var photoList = ['dog1.jpg', 'dog2.jpg', 'dog3.jpg', 'dog4.jpg', 'dog5.jpg', 'dog6.jpg', 'dog7.jpg', 'dog8.jpg', 'dog9.jpg', 'dog10.jpg', 'dog11.jpg']
+var photoList = ['/photo/dog1.jpg', '/photo/dog2.jpg', '/photo/dog3.jpg', '/photo/dog4.jpg', '/photo/dog5.jpg', '/photo/dog6.jpg', '/photo/dog7.jpg', '/photo/dog8.jpg', '/photo/dog9.jpg', '/photo/dog10.jpg', '/photo/dog11.jpg']
 var iterator = 0;
 var dogindex = ['0', '1', '2', '3'];
 var dogiterator = 0;
