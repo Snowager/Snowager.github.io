@@ -1,0 +1,88 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.cube {
+  height: 900px;
+  position: relative;
+  margin: 50px auto;
+  width: 500px;
+  -webkit-transform-style: preserve-3d;
+}
+
+.cube-no-preserve {
+  height: 240px;
+  position: relative;
+  margin: 50px auto;
+  width: 240px;
+}
+
+.buttonBox {
+  height: 900px;
+  bottom: 940px;
+  position: relative;
+  margin: 50px auto;
+  width: 500px;
+  display: flex;
+}
+
+.button1 {
+  height: 910px;
+  bottom: 60px;
+  position: relative;
+  margin: 50px auto;
+  width: 240px;
+  z-index: 9;
+}
+
+.button2 {
+  height: 910px;
+  bottom: 60px;
+  position: relative;
+  margin: 50px auto;
+  width: 240px;
+  z-index: 9;
+}
+
+
+.face {
+  -webkit-box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.5);
+  position: absolute;
+}
+
+.one  {
+  height: 500px;
+  width:500px;
+  -webkit-transform: rotateX(90deg) translateZ(250px);
+}
+
+.two {
+  height: 900px;
+  width:500px;
+  -webkit-transform: translateZ(250px);
+}
+
+.three {
+  height: 900px;
+  width:500px;
+  -webkit-transform: rotateY(90deg) translateZ(250px);
+}
+
+.four {
+  height: 900px;
+  width:500px;
+  -webkit-transform: rotateY(180deg) translateZ(250px);
+}
+
+.five {
+  height: 900px;
+  width:500px;
+  -webkit-transform: rotateY(-90deg) translateZ(250px);
+}
+
+ .six {
+  height: 500px;
+  width:500px;
+  -webkit-transform: rotateX(-90deg) translateZ(650px) rotate(180deg);
+}
