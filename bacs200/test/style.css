@@ -1,0 +1,73 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.cube {
+  height: 900px;
+  position: relative;
+  margin: 50px auto;
+  width: 500px;
+  -webkit-transform-style: preserve-3d;
+}
+
+.cube-no-preserve {
+  height: 240px;
+  position: relative;
+  margin: 50px auto;
+  width: 240px;
+}
+
+.indicatorBox {
+  height: 20px;
+  bottom: 103px;
+  position: relative;
+  margin: 50px auto;
+  width: 300px;
+  display: flex;
+
+}
+
+.b {
+  justify-content: center;
+  height:auto;
+  width:6%;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  margin-right: 6px;
+  margin-left: 6px;
+  opacity: 100%;
+}
+
+.b1{
+  background-color:   blue;
+}
+
+.face {
+  -webkit-box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.5);
+  position: absolute;
+}
+
+.two {
+  height: 900px;
+  width:500px;
+  -webkit-transform: translateZ(250px);
+}
+
+.three {
+  height: 900px;
+  width:500px;
+  -webkit-transform: rotateY(90deg) translateZ(250px);
+}
+
+.four {
+  height: 900px;
+  width:500px;
+  -webkit-transform: rotateY(180deg) translateZ(250px);
+}
+
+.five {
+  height: 900px;
+  width:500px;
+  -webkit-transform: rotateY(-90deg) translateZ(250px);
+}
